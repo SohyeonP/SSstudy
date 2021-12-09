@@ -4,9 +4,5 @@ import co.kr.study.domain.Account;
 
 public interface UserService {
 	
-	
-	@Override
-	public void createUser(Account account) {
-		
-	}
+	 void createUser(Account account);
 }
